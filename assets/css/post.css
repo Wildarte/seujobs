@@ -1,0 +1,64 @@
+.top_post{
+    width: 100%;
+    justify-content: space-between;
+}
+.top_post a{
+    color: var(--color-orange);
+}
+.btn_candidatar{
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.post_left{
+    flex-basis: 70%;
+    border: 1px solid var(--color-gray-two);
+    padding: 10px;
+    border-radius: 10px;
+}
+.post_right{
+    flex-basis: 30%;
+}
+.title_post{
+    color: var(--color-blue);
+}
+.detalhes_vaga{
+    flex-basis: 65%;
+    padding-right: 10px;
+}
+.detalhes_vaga p{
+    line-height: 1.8em;
+}
+.detail_side{
+    flex-basis: 35%;
+    padding: 10px;
+}
+.board_detail{
+    border: 1px solid var(--color-gray-two);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.board_detail p{
+    font-size: .9em;
+    line-height: 1.5em;
+}
+.link_list li a{
+    color: var(--color-blue);
+    font-size: .9em;
+    line-height: 1.5em;
+}
+.post_right{
+    padding-left: 10px;
+}
+.side_info_empresa{
+    padding: 10px;
+    border: 1px solid var(--color-gray-two);
+    border-radius: 8px;
+
+}
+.side_info_empresa img{
+    width: 100%;
+}
