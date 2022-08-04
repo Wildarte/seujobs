@@ -138,7 +138,7 @@
 
                     <p><strong>Obs: </strong>Ao anexar seu currículo no formulário abaixo, segue diretamente para a empresa que está contratando.</p>
 
-                    <button href="" class="link_pub btn_blue btn_candidatar">
+                    <button href="" class="link_pub btn_blue btn_candidatar" onclick="openForm()">
                         CANDIDATE-SE NESTA VAGA
                     </button>
 
@@ -165,7 +165,7 @@
 
                         <p>Localização: <span></span> <span>Pernambuco</span></p>
 
-                        <button class="btn_default" style="width: 100%; margin: 10px 0">
+                        <button class="btn_default" style="width: 100%; margin: 10px 0" onclick="openForm()">
                             Enviar Currículo
                         </button>
                     </div>
@@ -408,8 +408,8 @@
 
     </section>
 
-    <div>
-        <form action="" class="form_apply_vaga">
+    <div class="over_form_apply">
+        <form action="" class="form_apply_vaga open_apply_form">
             <div class="top_form">
                 <h4>Cadastre-se</h4>
                 <div class="close_form_apply">
