@@ -1,6 +1,6 @@
 :root{
     --color-gray: #e7e7e7;
-    --color-gray-two: #9A9A9A;
+    --color-gray-two: #b1b1b1;
     --color-light-gray: #FAFAFA;    
     --color-white: #ffffff;
     --color-black: #343434;
@@ -35,6 +35,7 @@
     border-radius: 4px;
     border: 1px solid var(--color-black);
     text-decoration: none;
+    cursor: pointer;
 }
 .btn_blue:hover{
     background-color: var(--color-orange);
@@ -48,6 +49,12 @@
 }
 .p-10{
     padding: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+.color-red{
+    color: #ff0000;
 }
 /* general style */
 
@@ -317,6 +324,80 @@ footer.footer{
 }
 /* menu mobile */
 
+
+/* form anunciar vaga */
+.section_form{
+    margin: 10px auto 40px;
+    padding: 10px;
+}
+.header_form_vaga{
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+}
+.header_form_vaga h2{
+    font-size: 1.8em;
+    font-weight: 400;
+}
+.line-short{
+    width: 50px;
+    height: 2px;
+    border: none;
+    background-color: var(--color-black);
+    margin: 20px auto 40px;
+}
+.board_form_vaga{
+    padding: 10px;
+    border: 1px solid var(--color-gray-two);
+    border-radius: 8px;
+}
+.board_form_vaga h3{
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0 0 20px;
+}
+.m-form{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.form_group{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 10px;
+}
+.form_group input{
+    width: 60%;
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid var(--color-gray-two);
+    outline: none;
+}
+.form_group textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+    border: 1px solid var(--color-gray-two);
+    outline: none;
+}
+.btn_form{
+    text-decoration: none;
+    color: var(--color-black);
+    padding: 8px 16px;
+    border: 1px solid;
+    border-radius: 3px;
+    max-width: 180px;
+    margin: 0;
+    cursor: pointer;
+}
+.info_pub_vaga p{
+    font-size: .85em;
+    margin: 10px 0;
+}
+/* form anunciar vaga */
+
+
+
 @media(max-width: 768px){
     .header_content{
         align-items: center;
@@ -353,6 +434,26 @@ footer.footer{
     .header_content a{
         margin: 5px 0;
     }
+    .link_logo img{
+        max-width: 150px;
+    }
+    .card_vaga a{
+        font-size: 1em;
+    }
+}
+@media(max-width: 500px){
+    .header_list h3{
+        font-size: 1.2em;
+    }
+    .form_group input{
+        width: 100%;
+    }
+    .header_form_vaga h2{
+        font-size: 1.4em;
+    }
+    .board_form_vaga h3{
+        font-size: 1.1em;
+    }
 }
 
 @media(max-width: 420px){
@@ -375,6 +476,17 @@ footer.footer{
     }
     .card_vaga{
         padding: 18px;
+    }
+    .card_vaga a{
+        font-size: .82em;
+        margin-right: 15px;
+    }
+    .card_vaga a.title_vaga{
+        font-size: 1.05em;
+    }
+    .vaga_text p, .vaga_info{
+        font-size: .9em;
+        line-height: 1.28em;
     }
 
 }

@@ -17,7 +17,7 @@
         <div class="header_content container d-flex">
             <div class="header_left">
                 <a href="" class="link_logo">
-                    <img src="assets/img/logo.jpeg" alt="">
+                    <img src="assets/img/logo3.jpg" alt="">
                 </a>
                 
             </div>
